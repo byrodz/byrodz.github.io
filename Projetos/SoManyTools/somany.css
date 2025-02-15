@@ -1,0 +1,102 @@
+.popupsomany {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    overflow: auto;
+  }
+  
+  .conteudosomany {
+    position: relative;
+    background-color: #f5f5f5;
+    margin: 2% auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 87%;
+    overflow-y: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .close-btn1 {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0900ae;
+  }
+  
+  .titulosomany {
+    position: fixed;
+    text-align: left;
+    font-size: 4vw; /* tamanho titulo */
+    top: 4vw;  /* posicao */
+    left: 42vw;
+    margin-right: 30vw;
+    font-weight: 900;
+  }
+  
+  .bodysomany {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+  }
+  
+  .imagenssomany {
+    flex: 1;
+    margin-right: 0%;
+  }
+  
+  .descricaosomany {
+    flex: 0.5;
+    font-weight: 300;
+    text-align:justify;
+    font-size: 0.7vw; /* Tamanho texto */
+    margin-left: 21vw;
+    margin-right: 8vw; /* posicao */
+    margin-top: 16vw;
+    color: #0900ae;
+  }
+  
+  .videossomany {
+    margin-top: 5%;
+  }
+  
+  .videossomany video {
+    width: 23vw; /*tamanho video*/
+    margin-top: 5vw;
+    margin-left: 8vw;
+  }
+
+  .datasomany {
+    position: fixed;
+    bottom: 17%;
+    right: 18%;
+    font-size: 14px;
+    color: #0900ae;
+    z-index: 10000;
+    font-weight: 200;
+}
+
+.imagem2somany {
+    display: flex;
+    margin-left: 70%;
+    margin-top: 25%;
+    margin-right: -33%;
+}
+
+.codigosomany {
+  position: absolute;
+  right: 19vw;
+  top: 125vw;
+  width: auto;
+  height: 8vw;
+}

@@ -1,0 +1,92 @@
+.popuprolling {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    overflow: auto;
+  }
+  
+  .conteudorolling {
+    position: relative;
+    background-color: #f5f5f5;
+    margin: 2% auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 87%;
+    overflow-y: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .close-btn6 {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0900ae;
+  }
+  
+  .titulorolling {
+    position: fixed;
+    text-align: left;
+    font-size: 4vw; /* Tamanho menor do título */
+    top: 4vw;
+    left: 42vw;
+    margin-right: 30vw; /* Título mais à direita */
+    font-weight: 900;
+  }
+  
+  .bodyrolling {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+  }
+  
+  .imagensrolling {
+    flex: 1;
+    margin-right: -83%;
+  }
+  
+  .descricaorolling {
+    flex: 0.5;
+    font-weight: 300;
+    text-align:justify;
+    font-size: 0.7vw; /* Tamanho menor do texto */
+    margin-left: 98vw;
+    margin-right: 3vw;
+    margin-top: 9vw;
+    color: #0900ae;
+  }
+  
+
+
+  .datarolling {
+    position: fixed;
+    bottom: 17%;
+    right: 18%;
+    font-size: 14px;
+    color: #0900ae;
+    z-index: 10000;
+    font-weight: 200;
+}
+
+.imagem2rolling {
+    display: flex;
+    margin: -7vw -39vw 0vw 42vw;
+}
+
+.codigorolling {
+  position: absolute;
+  right: 19vw;
+  top: 125vw;
+  width: auto;
+  height: 8vw;
+}

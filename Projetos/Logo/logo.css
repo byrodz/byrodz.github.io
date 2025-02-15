@@ -1,0 +1,83 @@
+.popuplogo {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    overflow: auto;
+  }
+  
+  .conteudologo {
+    position: relative;
+    background-color: #f5f5f5;
+    margin: 3% auto;
+    padding: 25px;
+    border-radius: 3px;
+    max-width: 86vw;
+    max-height: 100%;
+    overflow-y: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .close-btn5 {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0900ae;
+  }
+  
+  .titulologo {
+    position: fixed;
+    text-align: right;
+    font-size: 4vw;
+    top: 11vw;
+    left: 74vw;
+    margin-right: 28vw;
+    font-weight: 900;
+}
+  
+  .bodysologo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+  }
+  
+  .imagenslogo {
+    flex: 1;
+    margin-right: 46%
+  }
+  
+  .descricaologo {
+    font-weight: 300;
+    text-align: justify;
+    font-size: 0.7vw;
+    margin-left: 50vw;
+    margin-right: 24vw;
+    margin-top: -58vw;
+   color: #0900ae;
+  }
+
+  .datalogo {
+    position: fixed;
+    bottom: 17%;
+    right: 21%;
+    font-size: 14px;
+    color: #0900ae;
+    z-index: 10000;
+    font-weight: 200;
+}
+
+.imagem2logo {
+    display: flex;
+    margin-left: 0;
+    margin-top: -4px;
+    margin-right: 0;
+}

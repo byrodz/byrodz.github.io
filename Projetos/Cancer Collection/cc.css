@@ -1,0 +1,137 @@
+.popupcc {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    overflow: auto;
+  }
+  
+  .conteudocc {
+    position: relative;
+    background-color: #f5f5f5;
+    margin: 2% auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 87%;
+    overflow-y: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .close-btn9 {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0900ae;
+  }
+  
+  .titulocc {
+    position: fixed;
+    text-align: left;
+    font-size: 4vw;
+    top: 16vw;
+    left: 55vw;
+    margin-right: 20vw;
+    font-weight: 900;
+  }
+  
+  .bodycc {
+    position: relative; /* flexbox */
+    margin-top: 30px;
+  }
+  
+  .imagenscc {
+    position: relative;
+    width: 88vw;
+    height: 87vw;
+  }
+  
+  .imagemcc {
+    position: absolute;
+    max-width: 100vw;
+    height: auto;
+  }
+  
+  /* posicao individual imagens */
+  .imagemcc1 {
+    top: 0vw;
+    left: 5vw;
+    width: 33vw;
+  }
+  
+  .imagemcc2 {
+    top: 57vw;
+    left: 49vw;
+    width: 26vw;
+  }
+  
+  .imagemcc3 {
+    top: 101vw;
+    left: 12vw;
+    width: 29vw;
+  }
+  
+  .imagemcc4 {
+    top: 154vw;
+    left: 33vw;
+    width: 47vw;
+  }
+
+  .descricaocc {
+    position: relative;
+    left: 13vw;
+    top: -29vw;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 0.7vw;
+    margin: 0 0px;
+    color: #0900ae;
+    max-width: 22vw;
+    word-wrap: break-word;
+  }
+  
+  .videoscc {
+    position: absolute;
+    top: 203vw;
+    left: 7vw;
+    padding-bottom: 7vw;
+  }
+  
+  .videoscc video {
+    width: 35vw; /*tamanho video*/
+    height: auto;
+  }
+
+  .datacc {
+    position: fixed;
+    bottom: 88%;
+    right: 8%;
+    font-size: 14px;
+    color: #0900ae;
+    z-index: 10000;
+    font-weight: 200;
+}
+
+.imagem2cc {
+    display: flex;
+
+}
+
+.codigocc {
+  position: absolute;
+  right: 19vw;
+  top: 125vw;
+  width: auto;
+  height: 8vw;
+}
+
+/* por mexer e optimizar */
